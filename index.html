@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png" />
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
+    <title>Vite App</title>
+    <!--     Fonts and icons     -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" /> -->
+    <!-- <style>
+        body {
+            font-family: 'Poppins';
+            font-size: 22px;
+        }
+    </style> -->
+    <!-- Nucleo Icons -->
+    <link href="/assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="/assets/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <link href="/assets/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- CSS Files -->
+    <link id="pagestyle" href="/assets/css/soft-ui-dashboard.css?v=1.0.7" rel="stylesheet" />
+    <!-- Nepcha Analytics (nepcha.com) -->
+
+    <!-- fonts -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'> -->
+    <link href="https://fonts.cdnfonts.com/css/satoshi?styles=135007" rel="stylesheet">
+                
+</head>
+
+<body class="g-sidenav-show bg-gray-100">
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="/public/assets/js/core/popper.min.js"></script>
+    <script src="/public/assets/js/core/bootstrap.min.js"></script>
+    <script src="/public/assets/js/plugins/perfect-scrollbar.min.js"></script>
+    <script src="/public/assets/js/plugins/smooth-scrollbar.min.js"></script>
+    <script src="/public/assets/js/plugins/chartjs.min.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script src="/public/assets/js/soft-ui-dashboard.min.js"></script>
+    <script>
+        var win = navigator.platform.indexOf('Win') > -1;
+        if (win && document.querySelector('#sidenav-scrollbar')) {
+            var options = {
+                damping: '0.5'
+            }
+            Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+        }
+    </script>
+
+</html>

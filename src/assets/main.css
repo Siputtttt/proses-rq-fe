@@ -1,0 +1,18 @@
+.bg-sidebar {
+  background-color: #80AF81 ;
+}
+.btn-primary {
+  background-image: linear-gradient(to right, #0061ff, #60efff) !important;
+}
+.btn-secondary {
+  background-image: linear-gradient(to right, #b5c6e0, #ebf4f5) !important;
+  color: black !important;
+}
+.btn-warning {
+  background-image: linear-gradient(to right, #ff930f, #fff95b) !important;
+  color: white !important;
+}
+.btn-danger {
+  background-image: linear-gradient(to right, #d3321d, #ffcf67) !important;
+  color: white !important;
+}
