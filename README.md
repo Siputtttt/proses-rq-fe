@@ -11,7 +11,7 @@ Pastikan Anda telah menginstal hal berikut:
 
 ## 1. Clone Repository
 Jalankan perintah berikut di terminal untuk mengkloning proyek:
-`git clone https://github.com/Siputtttt/testsigma.git`
+`git clone https://github.com/Siputtttt/proses-rq-fe.git`
 
 ## 2. Install dependensi
   npm install
